@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Evento Tecnologico</string>
+    <string name="evento_Real_Talk">Evento Real Talk</string>
+    <string name="expositores">Expositores</string>
+    <string name="evento_en_vivo">Evento en Vivo</string>
+    <string name="programa">Programa</string>
+    <string name="datos">Datos</string>
+    <string name="galeria">Galeria</string>
+
+    <string name="programacionEvento">Programación Evento</string>
+
+    <string name="codigo">Código:</string>
+    <string name="producto">Producto:</string>
+    <string name="descripcion">Descripción:</string>
+
+    <string name="insertar">Insertar</string>
+    <string name="buscar">Buscar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="borrar">Borrar</string>
+
+
+    <string name="Nick_Law">- Nick Law</string>
+    <string name="Kwon_Oh_hyun">- Kwon Oh-hyun</string>
+    <string name="Pekka_Lundmark">- Pekka Lundmark</string>
+    <string name="Lei_Jun">- Lei Jun</string>
+    <string name="Greg_Brown">- Greg Brown</string>
+    <string name="Ren_Zhengfei">- Ren Zhengfei</string>
+    <string name="Koo_Kwang_Mo">- Koo Kwang Mo</string>
+
+    <string name="Detalle_25_Mayo">Detalle dia 25 mayo</string>
+    <string name="linea">_______________________________________________________________</string>
+
+
+    <string name="detalle_nick_Law">Nick Law, conocido en el mundo de las agencias por su largo período en el liderazgo creativo en R / GA y su mandato reciente
+        relativamente breve como CCO global de Publicis, pronto ocupará un puesto recién creado en Apple: vicepresidente de integración de marcom.</string>
+
+    <string name="name2">EvaluacionGrupal2</string>
+
+    <string name="app_name3">Choose Your Own</string>
+    <string name="race_orc">Orc</string>
+    <string name="race_elf">Elf</string>
+    <string name="race_troll">Troll</string>
+    <string name="race_human">Human</string>
+    <string name="race_halfling">Halfling</string>
+    <string name="race_goblin">olis</string>
+    <string name="race_goblin3">chaiis</string>
+
+
+    <string-array name="races_array">
+        <item>@string/race_goblin</item>
+        <item>@string/race_orc</item>
+        <item>@string/race_elf</item>
+        <item>@string/race_human</item>
+        <item>@string/race_troll</item>
+        <item>@string/race_halfling</item>
+        <item>@string/race_halfling</item>
+    </string-array>
+
+
+</resources>

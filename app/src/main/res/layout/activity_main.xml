@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="218dp">
+
+        <LinearLayout
+            android:layout_width="205dp"
+            android:layout_height="218dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="186dp"
+                android:layout_height="186dp"
+                app:srcCompat="@drawable/real_talk" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/evento_Real_Talk"
+                android:textAlignment="center"
+                android:textColor="#5269E6"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="205dp"
+            android:layout_height="218dp"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="52dp" />
+
+            <ImageView
+                android:id="@+id/imgExpositores"
+                android:layout_width="193dp"
+                android:layout_height="112dp"
+                app:srcCompat="@drawable/expositores" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="19dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/expositores"
+                android:textAlignment="center"
+                android:textColor="#5269E6"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="198dp">
+
+        <LinearLayout
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="187dp"
+                android:layout_height="170dp"
+                app:srcCompat="@drawable/evento_en_vivo" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/evento_en_vivo"
+                android:textAlignment="center"
+                android:textColor="#5269E6"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="208dp"
+            android:layout_height="195dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgProgramacion"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                app:srcCompat="@drawable/calendario" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/programa"
+                android:textAlignment="center"
+                android:textColor="#5269E6"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="202dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18dp" />
+
+            <ImageView
+                android:id="@+id/imgDatos"
+                android:layout_width="187dp"
+                android:layout_height="149dp"
+                app:srcCompat="@drawable/data" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/datos"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#5269E6"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="38dp" />
+
+            <ImageView
+                android:id="@+id/imgGaleria"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                app:srcCompat="@drawable/descarga" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/galeria"
+                android:textAlignment="center"
+                android:textColor="#5269E6"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
