@@ -37,13 +37,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//        imgGaleria.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intento1 = new Intent(MainActivity.this,MainGaleria.class);
-//                startActivity(intento1);
-//            }
-//        });
+        imgGaleria.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intento1 = new Intent(MainActivity.this,Main_galeria.class);
+                startActivity(intento1);
+            }
+        });
 
         imgDatos.setOnClickListener(new View.OnClickListener() {
             @Override
